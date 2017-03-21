@@ -1,0 +1,13 @@
+@import 'libs/reset';
+@import 'index';
+
+
+$color: #000;  
+
+body {
+    background-color: $color;
+
+    a{
+        color: lighten($color, 20%);
+    }
+}
