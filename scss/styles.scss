@@ -32,6 +32,7 @@ body {
     .upc {
         text-transform: uppercase;
         line-height: 26px !important;
+        padding: 0 23px !important;
         
         &:after {
             background: #fff;
@@ -56,6 +57,11 @@ body {
 
     .left-menu {
         display: none;
+    }
+
+    .npc {
+        text-transform: uppercase;
+        line-height: 26px !important;
     }
     
     .demo-layout-transparent .mdl-layout__header,
