@@ -13,15 +13,58 @@ body {
 
     .demo-layout-transparent {
         background: url('../images/sl.jpg') center / cover;
+    }
+
+    .hlay {
         height: 600px;
     }
-    .mdl-layout__header {
-        background-color: #8BC34A; 
+
+    .fhead {
+        background-color: rgba(236, 236, 236, 0.3) !important;
     }
+
+    .logo-title {
+        line-height: 36px;
+        font-size: 36px;
+    }
+
+    .upc {
+        text-transform: uppercase;
+        line-height: 26px !important;
+        
+        &:after {
+            background: #fff;
+            bottom: 0px;
+            content: '';
+            display: block;
+            height: 1px;
+            width: 0;
+            position: relative;
+            -webkit-transition: width .15s;
+            -moz-transition: width .15s;
+            -o-transition: width .15s;
+            transition: width .15s;
+        }
+        
+        &:hover:after {
+            width: 100%;
+            z-index: 5;
+        }
+    }
+
+
+    .left-menu {
+        display: none;
+    }
+    
     .demo-layout-transparent .mdl-layout__header,
     .demo-layout-transparent .mdl-layout__drawer-button {
         /* This background is dark, so we set text to white. Use 87% black instead if
             your background is light. */
         color: white;
     }
+    .mdl-layout__drawer-button {
+        display: none;
+    }
+
 }
