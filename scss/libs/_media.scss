@@ -1,0 +1,13 @@
+ @media screen and (max-width: 1024px) {
+    .left-menu {
+        display: flex !important;
+    }
+
+    .mdl-layout__drawer-button {
+        display: flex !important;
+    }
+
+    .material-icons {
+    font-size: 48px !important;
+    }
+}
