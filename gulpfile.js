@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var notify = require("gulp-notify");
+var notify = require('gulp-notify');
 var sourcemaps = require('gulp-sourcemaps');
 var cleanCSS = require('gulp-clean-css');
 var browserSync = require('browser-sync').create();
