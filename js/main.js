@@ -1,8 +1,9 @@
 $(window).load(function(){
 	$('.slider').fractionSlider({
-		'fullWidth': 			false,
-		'controls': 			true, 
-		'pager': 				true
+		'fullWidth': false,
+		'controls' : true,
+		'pager': true,
+		'autoChange' : false,
 	});
 
 });
