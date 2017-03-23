@@ -46,7 +46,7 @@
 	width:45px; height:45px;
 	z-index:9999;
 }
-
+/*
 .fraction-slider .prev{
 	left:10px; top:185px;
 	background:url(../../images/fs.prevnext.png) 0px 0px no-repeat transparent;
@@ -63,7 +63,7 @@
 .fraction-slider .next:hover{
 	background:url(../../images/fs.prevnext.png) -45px -45px no-repeat transparent;
 }
-
+*/
 .fraction-slider:hover .prev,
 .fraction-slider:hover .next{
 	display:block;

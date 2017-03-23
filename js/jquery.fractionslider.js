@@ -144,7 +144,7 @@
 			
 			// controls
 			if (options.controls) {
-				slider.append('<a href="#" class="prev"></a><a href="#" class="next" ></a>');
+				slider.append('<a href="#" class="prev"><button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"><i class="material-icons">keyboard_arrow_left</i></button></a><a href="#" class="next" ><button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"><i class="material-icons">keyboard_arrow_right</i></button></a>');
 
 				slider.find('.next').bind('click', function() {
 					return nextBtnPressed();

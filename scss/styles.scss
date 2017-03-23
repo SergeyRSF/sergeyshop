@@ -9,6 +9,15 @@
  
 
 body {
+    .fraction-slider {
+        .prev {
+            left:10px; top:185px;
+        }
+        .next {
+            right:20px; top:185px;
+        }
+    }
+
     background-color: #95c542;
 
 
@@ -89,7 +98,7 @@ body {
         }
     }
 
-  
+
 
     .dd-menu {
         //display: none;
