@@ -49,19 +49,19 @@
 
 .fraction-slider .prev{
 	left:10px; top:185px;
-	background:url(../images/fs.prevnext.png) 0px 0px no-repeat transparent;
+	background:url(../../images/fs.prevnext.png) 0px 0px no-repeat transparent;
 	
 }
 .fraction-slider .prev:hover{
-	background:url(../images/fs.prevnext.png) 0px -45px no-repeat transparent;
+	background:url(../../images/fs.prevnext.png) 0px -45px no-repeat transparent;
 }
 
 .fraction-slider .next{
 	right:10px; top:185px;
-	background:url(../images/fs.prevnext.png) -45px 0px no-repeat transparent;
+	background:url(../../images/fs.prevnext.png) -45px 0px no-repeat transparent;
 }
 .fraction-slider .next:hover{
-	background:url(../images/fs.prevnext.png) -45px -45px no-repeat transparent;
+	background:url(../../images/fs.prevnext.png) -45px -45px no-repeat transparent;
 }
 
 .fraction-slider:hover .prev,

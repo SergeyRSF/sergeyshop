@@ -13,7 +13,7 @@ body {
     }
 
     .demo-layout-transparent {
-        background: url('../images/sl.jpg') center / cover;
+        
     }
 
     .hlay {
@@ -61,28 +61,25 @@ body {
         }
     }
 
-    a.c_menu {
-        position: relative;
-        display: block;
-        
+    li {
+
         &:hover {
-            color: #000;
 
-            .dd-menu {
-                display:block !important;
+            ul.dd-menu {
+                display:block;
             }
-
         }
     }
+
+  
 
     .dd-menu {
         display: none;
         position: absolute;
         width: 120px;
-        top: 64px;
-        right: 31%;
+        top: auto;
+        padding-top: 20px;
         border: 4px solid rgba(255, 255, 255, 0.6);
-        padding: 0px;
         margin: 0px;
 
         .dd-li {
