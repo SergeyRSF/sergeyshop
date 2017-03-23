@@ -8,8 +8,8 @@ $(window).load(function(){
 
 });
 
-$(document).ready(function(){
+/*$(document).ready(function(){
 	$(".main-menu li").hover(function(){
 		$(".main-menu li .mdl-menu__container").toggleClass("is-visible");
 	})
-})
+})*/
