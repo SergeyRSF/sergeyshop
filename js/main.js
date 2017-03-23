@@ -8,8 +8,9 @@ $(window).load(function(){
 
 });
 
-/*$(document).ready(function(){
+$(document).ready(function(){
 	$(".main-menu li").hover(function(){
-		$(".main-menu li .mdl-menu__container").toggleClass("is-visible");
+		//$(".main-menu li .dd-menu").toggleClass("is-animating");
+		//$(".help_in_menu").toggleClass("is-visible");
 	})
-})*/
+})
