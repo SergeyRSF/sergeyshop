@@ -3,7 +3,7 @@ $(window).load(function(){
 		'fullWidth': false,
 		'controls' : true,
 		'pager': true,
-		'autoChange' : false,
+		'autoChange' : true,
 	});
 
 });
