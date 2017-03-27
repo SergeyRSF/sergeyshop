@@ -51,7 +51,8 @@ p{
 }
 
 .claim{
-	line-height:100%
+	line-height:100%;
+	padding-top: 23px;
 }	
 
 .teaser{
@@ -61,8 +62,8 @@ p{
 }
 
 .small{
-	width:250px;
-   padding-left:0; padding-right:0px;
+	width:320px;
+   	padding-left:0; padding-right:0px; 
 	text-align:center;
 }
 

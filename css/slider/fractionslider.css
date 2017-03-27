@@ -34,9 +34,8 @@
 
 .fs_loader{
 	width:100%; height:400px;
-	background:url(../../images/timthumb.jpg) center center no-repeat;
+	/*background:url(../../images/timthumb.jpg) center center no-repeat;*/
 }
-
 /** CONTROLS **/
 
 .fraction-slider .prev,
