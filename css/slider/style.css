@@ -20,7 +20,12 @@ body{
 	height:600px; /* when responsive, comment this out */
 	margin:0 auto;
 	
-	background: #fff;
+	/*background: #fff;*/
+}
+
+.slide {
+	background:url(../../images/timthumb.jpg) center center no-repeat;
+	background-size: 100%;
 }
 
 @media only screen and (min-width: 1000px){
