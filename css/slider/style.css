@@ -34,6 +34,11 @@ body{
 	}
 }
 
+.a-bg {
+	background: url(../../images/m-effect.jpeg) center center no-repeat;
+	background-size: 100%;
+}
+
 /* ELEMENT STYLES */
 
 p{
@@ -48,6 +53,12 @@ p{
 	color:#fff;
 	white-space: nowrap;
 	text-transform:uppercase;
+}
+
+.l-p {
+	font-size: 20px !important;
+	max-width: 800px !important;
+	min-width: 400px !important;
 }
 
 .claim{
