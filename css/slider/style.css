@@ -55,10 +55,20 @@ p{
 	text-transform:uppercase;
 }
 
+.info-text {
+	width: 320px !important;
+	-webkit-column-count:1;  
+    -moz-column-count:1;  
+    column-count:1;
+	color: #fff;
+	font-size: 18px;
+	line-height: 22px;
+	padding-top: 20px;
+}
+
 
 .l-p {
 	font-size: 15px !important;
-	word-wrap: normal !important;
 }
 
 .claim{
