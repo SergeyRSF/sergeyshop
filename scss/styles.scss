@@ -52,112 +52,111 @@ body {
             float: none;
         }
 
-    .mbut {
-        color: #000;
-        height: 64px;
-        
-    }
-
-    .upc {
-        text-transform: uppercase;
-        line-height: 26px !important;
-        padding: 0px !important;
-        
-        /*&:after {
-            background: #fff;
-            bottom: 0px;
-            content: '';
-            display: block;
-            height: 1px;
-            width: 0;
-            position: relative;
-            -webkit-transition: width .15s;
-            -moz-transition: width .15s;
-            -o-transition: width .15s;
-            transition: width .15s;
-        }
-        
-        &:hover:after {
-            width: 100%;
-            z-index: 5;
-        }*/
-    }
-
-    li {
-
-        &:hover {
-
-            .mbut {
-                background-color: rgba(158,158,158,.2);
-            }
-
-            ul.dd-menu {
-               // display:block;
-                opacity: 1;
-                -webkit-transform: scale(1);
-                transform: scale(1);
-                z-index: 999;
-                margin: 0;
-            }
+        .mbut {
+            color: #000;
+            height: 64px;
+            
         }
 
-    }
-
-
-    .dd-menu {
-        //display: none;
-        position: absolute;
-        width: auto;
-        top: auto;
-        opacity: 0;
-        margin: 0px;
-        background: #fff;
-        height: auto;
-        min-width: 124px;
-        padding: 8px 0;
-        line-height: 24px;
-        font-size: 13px;
-        -webkit-transform: scale(0);
-        transform: scale(0);
-        -webkit-transform-origin: 0 0;
-        transform-origin: 0 0;
-        box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
-        -webkit-transition: opacity .3s ease-in-out, margin .3s ease-in-out;
-        -moz-transition: opacity .3s ease-in-out, margin .3s ease-in-out;
-        -ms-transition: opacity .3s ease-in-out, margin .3s ease-in-out;
-        -o-transition: opacity .3s ease-in-out, margin .3s ease-in-out;
-        transition: opacity .3s ease-in-out, margin .3s ease-in-out;
-        max-width: 250px;
-        z-index: -1;
-        margin: -20px 0 0 0;
-  
-
-        .dd-a {
-        border-bottom: 1px solid rgba(0,0,0,.12);
-         display: block;
-         text-align: left;   
-         height: 100%;
-         line-height: 25px;
-         overflow: visible;      
-         padding: 10px 16px;
-         text-transform: none;
-
-           &:hover {
-               
-            }
-
-            /*.dd-a {
+        .upc {
+            text-transform: uppercase;
+            line-height: 26px !important;
+            padding: 0px !important;
+            
+            /*&:after {
+                background: #fff;
+                bottom: 0px;
+                content: '';
                 display: block;
-                list-style: none !important;
-                text-decoration: none;
-                color: white;
-                padding-left: 5px;
-
-                
+                height: 1px;
+                width: 0;
+                position: relative;
+                -webkit-transition: width .15s;
+                -moz-transition: width .15s;
+                -o-transition: width .15s;
+                transition: width .15s;
+            }
+            
+            &:hover:after {
+                width: 100%;
+                z-index: 5;
             }*/
         }
+
+        li {
+
+            .dd-menu {
+                //display: none;
+                position: absolute;
+                width: auto;
+                top: auto;
+                opacity: 0;
+                margin: 0px;
+                background: #fff;
+                height: auto;
+                min-width: 124px;
+                padding: 8px 0;
+                line-height: 24px;
+                font-size: 13px;
+                -webkit-transform: scale(0);
+                transform: scale(0);
+                -webkit-transform-origin: 0 0;
+                transform-origin: 0 0;
+                box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+                -webkit-transition: opacity .3s ease-in-out, margin .3s ease-in-out;
+                -moz-transition: opacity .3s ease-in-out, margin .3s ease-in-out;
+                -ms-transition: opacity .3s ease-in-out, margin .3s ease-in-out;
+                -o-transition: opacity .3s ease-in-out, margin .3s ease-in-out;
+                transition: opacity .3s ease-in-out, margin .3s ease-in-out;
+                max-width: 250px;
+                z-index: -1;
+                margin: -20px 0 0 0;
+        
+
+                .dd-a {
+                border-bottom: 1px solid rgba(0,0,0,.12);
+                display: block;
+                text-align: left;   
+                height: 100%;
+                line-height: 25px;
+                overflow: visible;      
+                padding: 10px 16px;
+                text-transform: none;
+
+                &:hover {
+                    
+                    }
+
+                    /*.dd-a {
+                        display: block;
+                        list-style: none !important;
+                        text-decoration: none;
+                        color: white;
+                        padding-left: 5px;
+
+                        
+                    }*/
+                }
+            }
+
+            &:hover {
+
+                .mbut {
+                    background-color: rgba(158,158,158,.2);
+                }
+
+                ul.dd-menu {
+                // display:block;
+                    opacity: 1;
+                    -webkit-transform: scale(1);
+                    transform: scale(1);
+                    z-index: 999;
+                    margin: 0;
+                }
+            }
+        } 
     }
-}
+    
     .left-menu {
         display: none;
 
@@ -191,6 +190,7 @@ body {
         width: 300px;
         height: 300px;
         background: #ececec;
+        cursor: pointer;
 
         &:hover {
             background: rgba(0, 0, 0, 0.6);
