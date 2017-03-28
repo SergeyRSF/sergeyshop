@@ -156,7 +156,7 @@ body {
             }
         } 
     }
-    
+
     .left-menu {
         display: none;
 
@@ -186,16 +186,36 @@ body {
         display: none;
     }
 
-    .lic {
-        width: 300px;
-        height: 300px;
-        background: #ececec;
-        cursor: pointer;
+    .wrapper {
 
-        &:hover {
-            background: rgba(0, 0, 0, 0.6);
-            cursor: pointer;
+        margin: 0 auto !important;
+        width: 900px;
+
+        ul.table-ul {
+
+            padding-top: 20px;
+
+            li.table-li {
+
+                float: left;
+
+                .lic {
+                    width: 300px;
+                    height: 300px;
+                    background: #ececec;
+                    cursor: pointer;
+
+                    &:hover {
+                        background: rgba(0, 0, 0, 0.6);
+                        cursor: pointer;
+                    }
+                }
+
+            }
+
         }
+
+
     }
 
 }
