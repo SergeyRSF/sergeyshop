@@ -224,6 +224,8 @@ body {
                 cursor: pointer;
                 float: left;
                 margin: 10px;
+                background: url(../images/sberbank.jpg) center center no-repeat;
+                background-size: 100%;
 
                 &:hover {
                     background: rgba(0, 0, 0, 0.6);
@@ -235,6 +237,7 @@ body {
 
                     .watch {
                         display: block;
+                        background: none;
                     }
                 }
 
@@ -252,12 +255,7 @@ body {
                         margin-top: 90px;
                     }
                 }
-
             }
-
         }
-
-
     }
-
 }
