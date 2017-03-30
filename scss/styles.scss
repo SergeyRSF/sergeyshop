@@ -188,7 +188,7 @@ body {
 
     .nnews {
         float:left;
-        width: 600px;
+        width: 360px;
         padding-top: 20px;
         padding-left: 20px;
 
@@ -212,6 +212,10 @@ body {
             text-transform: none;
             white-space: normal;
         }
+
+        .nnew {
+            margin-bottom: 15px;
+        }
     }
 
     .wrapper {
@@ -226,6 +230,7 @@ body {
 
         ul.table-ul {
 
+            margin-top: -10px;
 
             li.table-li {
 
