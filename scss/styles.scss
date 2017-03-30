@@ -285,4 +285,14 @@ body {
             }
         }
     }
+
+    ul.foot {
+        li.foot-li {
+            a {
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
 }
